@@ -77,218 +77,7 @@ body{
     transition: .3s ease-out all;
 }
 
-/*
-                                        SALA
 
-.contenedor_botones__botonSala1{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 122px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonSala2{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 122px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonSala3{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 122px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonSala4{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 122px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonSala5{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 123px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-
-                                        COCINA
-
-.contenedor_botones__botonCocina1{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 122px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonCocina2{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 122px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonCocina3{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 122px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonCocina4{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 122px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonCocina5{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 123px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-
-                                    HABITACION
-
-.contenedor_botones__botonHabitacion1{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 122px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonHabitacion2{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 122px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonHabitacion3{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 122px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonHabitacion4{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 122px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonHabitacion5{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 123px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-
-                                        CONTACTO
-
-.contenedor_botones__botonContacto1{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 120px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonContacto2{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 120px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonContacto3{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 120px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonContacto4{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 120px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-
-.contenedor_botones__botonContacto5{
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 26px 120px 26px;
-    text-align: center;
-    transition: .3s ease-out all;
-}
-*/
 
 .navbar a:hover{
     background: #FF9900;
@@ -337,39 +126,39 @@ body{
 
 
                         /*************************/
-                        /**********SALA*********/
+                        /***********SALA**********/
                         /*************************/
 
 .contenedor-imagenes{
-    transform: translate(25%, 25%);
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-    max-width: 1200px;
-    width: 910px;
-    margin: 10px;
+    margin: 2em 8em;
 }
 /*UNO*/
-.one-three__one{
-transform: translate(0, 0);
+.Estante_televisor-1{
+    transform: translate(0, 0);
+    background: red;
 }
-.one-three__one img{
+.Estante_televisor-1__one img{
     width: 325px;
     height: 157px;
     margin: 10px;
 }
 /*DOS*/
-.one-three__two{
+.Estante_televisor-2{
     transform: translate(30%, -100%);
+    background: blue;
 }
-.one-three__two img{
+.Estante_televisor-2__two img{
     width: 325px;
     height: 157px;
     margin: 10px;
 }
 /*TRES*/
-.one-three__three{
+.Estante_televisor-3{
     transform: translate(60%, -200%);
+    background: purple;
 }
-.one-three__three img{
+.Estante_televisor-3__three img{
     width: 325px;
     height: 157px;
     margin: 10px;
