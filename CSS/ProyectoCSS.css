@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
     font-family: 'Itim', cursive;
@@ -130,10 +134,18 @@ body{
                         /***********SALA**********/
                         /*************************/
 
+.Contenedor-galerias{
+    background: blue;
+    margin-left: 46%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
 .galeria {
+    background: red;
     display: flex;
-    width: 50%;
-    margin: auto;
+    padding: 1% 4%;
+    width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
     z-index: 1;
@@ -143,7 +155,7 @@ body{
     width: 200px;
     height: 200px;
     position: relative;
-    margin-bottom: 35px;
+    margin: 1%;
     border-radius: 5px;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
     transition: 0.6s ease;
@@ -218,9 +230,10 @@ body{
                                 /*GALERIA 2 LIBRERO*/
 
 .galeria_2 {
+    background: purple;
     display: flex;
-    width: 50%;
-    margin: auto;
+    padding: 1% 4%;
+    width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
     z-index: 1;
@@ -230,7 +243,7 @@ body{
     width: 200px;
     height: 200px;
     position: relative;
-    margin-bottom: 35px;
+    margin: 1%;
     border-radius: 5px;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
     transition: 0.6s ease;
@@ -305,9 +318,10 @@ body{
                         /*GALERIA 3 SOFA*/
 
 .galeria_3 {
+    background: yellow;
     display: flex;
-    width: 50%;
-    margin: auto;
+    padding: 1% 4%;
+    width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
     z-index: 1;
@@ -317,7 +331,7 @@ body{
     width: 200px;
     height: 200px;
     position: relative;
-    margin-bottom: 35px;
+    margin: 1%;
     border-radius: 5px;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
     transition: 0.6s ease;
@@ -391,9 +405,10 @@ body{
                     /*Mesa_Sala*/
 
 .galeria_4 {
+    background: grey;
     display: flex;
-    width: 50%;
-    margin: auto;
+    padding: 1% 4%;
+    width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
     z-index: 1;
@@ -403,7 +418,7 @@ body{
     width: 200px;
     height: 200px;
     position: relative;
-    margin-bottom: 35px;
+    margin: 1%;
     border-radius: 5px;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
     transition: 0.6s ease;
@@ -474,7 +489,34 @@ body{
     background-color: rgba(211, 211, 211, 0.459);
 }
 
+/* * ============================== */
+/* * ============ ASIDE =========== */
+/* * ============================== */
 
+aside {
+	min-width: 15%;
+	margin: 40px 100% 20px 2%;
+	height: 100%;
+	background: #1D2F3D;
+	padding: 20px;
+	border-radius: 3px;
+	position: sticky;
+	top: 0;
+}
+
+aside .titulo {
+    text-align: center;
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #f2f2f2;
+}
+
+aside .indice a {
+	display: block;
+	margin-bottom: 10px;
+	color: #FFCD48;
+}
 
 
                         /*FORMULARIO DE CONTACTO*/
@@ -536,9 +578,6 @@ body{
     transition: background-color 1s ease-out;
     outline: 0;
 }
-
-
-
 
                         /*BARRA BAJA*/
 footer{
