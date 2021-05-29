@@ -97,17 +97,27 @@ body{
                         /**********INICIO*********/
                         /*************************/
 
+.contenedor-de-marquesina{
+    width: 900px;
+    margin: auto;
+    margin-bottom: 3em;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.marque-inicio{
+    
+}
 
 .marquesina-contenedor{
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
     position: relative;
-    max-width: 725px;
+    max-width: 487px;
     margin: 30px;
 }
 
 .logo img{
-    width: 625px;
-    height: 417px;
+    width: 417px;
+    height: 317px;
     margin: 10px;
     padding: 5% 0 5% 10%;
     display: flex;
@@ -134,6 +144,11 @@ body{
                         /***********SALA**********/
                         /*************************/
 
+.h2-variedad{
+    text-align: center;
+    font-size: 2em;
+}
+
 .contenedor{
     margin: 0 80px 80px;
 }
@@ -145,7 +160,7 @@ body{
     
 }
 
-marquee{
+.marque{
     margin-top: 4%;
     background: red;
 }
@@ -535,6 +550,12 @@ aside .indice a {
     display: inline;
     background: red;
 }
+
+/***************************/
+/*********Estrellas*********/
+/***************************/
+
+
 
                         /*FORMULARIO DE CONTACTO*/
 

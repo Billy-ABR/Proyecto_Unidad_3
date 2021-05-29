@@ -27,6 +27,30 @@
         </div>
     </nav>
 
+    <h2 class="h2-variedad">Tenemos variedad de muebles para su sala</h2>
+
+    <!--LOGO-->
+    <!--<a href="1-Inicio.html" class="logo">
+        <span class="symbol"></span><img class="logo-image" src="Img/Bútor.jpg" alt=""><span></span class="title">Butor</span>
+    </a>
+    <style>
+        .logo{
+            margin
+        }
+        .symbol{
+            width: 400px;
+        }
+        .logo-image{
+            width: 200px;
+            padding: 5px;
+            background: red;
+        }
+        .logo-image:hover{
+            
+            box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+        }
+    </style>-->
+
     <main id="blog">
 		<div class="contenedor">
             <div class="hola">
@@ -42,7 +66,7 @@
             </div>
             <div class="Contenedor-galerias">
                                     <!--ESTANTES DE TELEVISOR-->
-                <marquee id="Estante_televisor" behavior="" direction="" scrollamount="10"><div><h2>Estantes para Televisores</h2></div></marquee>
+                <marquee class="marque" id="Estante_televisor" behavior="" direction="" scrollamount="10"><div><h2>Estantes para Televisores</h2></div></marquee>
             
                 <div class="galeria">
                     <div class="foto">
@@ -114,7 +138,7 @@
             
                                     <!--LIBREROS-->
             
-                <marquee id="Libreros" behavior="" direction="" scrollamount="10"><div><h2>Libreros</h2></div></marquee>
+                <marquee class="marque" id="Libreros" behavior="" direction="" scrollamount="10"><div><h2>Libreros</h2></div></marquee>
             
                 <div class="galeria_2">
                     <div class="foto_2">
@@ -185,7 +209,7 @@
             
                                 <!--SOFA-->
             
-                <marquee id="Sofas" behavior="" direction="" scrollamount="10"><div><h2>Sofas</h2></div></marquee>
+                <marquee class="marque" id="Sofas" behavior="" direction="" scrollamount="10"><div><h2>Sofas</h2></div></marquee>
             
                 <div class="galeria_3">
                     <div class="foto_3">
@@ -256,7 +280,7 @@
 
                                     <!--Mesa_Sala-->
 
-                <marquee id="Mesa_sala" behavior="" direction="" scrollamount="10"><div><h2>Mesa de Sala</h2></div></marquee>
+                <marquee class="marque" id="Mesa_sala" behavior="" direction="" scrollamount="10"><div><h2>Mesa de Sala</h2></div></marquee>
 
                 <div class="galeria_4">
                     <div class="foto_4">
@@ -311,6 +335,97 @@
             </div>
         </div>
     </main>
+
+    <!------------------>
+    <!-----Estrellas---->
+    <!------------------>
+
+    <div class="caja">
+        <form>
+            <p class="clasificacion">
+                <input id="radio1" type="radio" name="estrellas" value="5">
+                <label for="radio1" onclick="calificar(this)" style="cursor: pointer;" id="5estrella">★</label>
+                <input id="radio2" type="radio" name="estrellas" value="4">
+                <label for="radio2" onclick="calificar(this)" style="cursor: pointer;" id="4estrella">★</label>
+                <input id="radio3" type="radio" name="estrellas" value="3">
+                <label for="radio3" onclick="calificar(this)" style="cursor: pointer;" id="3estrella">★</label>
+                <input id="radio4" type="radio" name="estrellas" value="2">
+                <label for="radio4" onclick="calificar(this)" style="cursor: pointer;" id="2estrella">★</label>
+                <input id="radio5" type="radio" name="estrellas" value="1">
+                <label for="radio5" onclick="calificar(this)" style="cursor: pointer;" id="1estrella">★</label>
+                <button class="btn btn-primary" onclick="Mensaje()">Calificar</button>
+            </p>
+        </form>
+    </div>
+
+    <style>
+.caja{
+    background: black;
+    width: 166px;
+    height: 25px;
+    margin: auto;
+    padding: 2px 10px 6px 5px;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#form p {
+    text-align: center;
+}
+
+#form label {
+    font-size: 20px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: #fff;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+    color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+    color: orange;
+}
+    </style>
+
+
+<script>
+    var contador;
+    function calificar(item){
+        console.log(item);
+        contador=item.id[0];
+        let nombre = item.id.substring(1);
+        for(let i=0;i<5;i++){
+            if (i<count){
+                document.getElementById((i+1)+nombre).style.color="orange";
+            }else{
+            document.getElementById((i+1)+nombre).style.color="black";
+            }
+        }
+    }
+    function Mensaje(){
+        alert("Gracias por calificar, usted nos dio "+contador+" estrellas")
+    }
+</script>
+
+
+
 
     <!--SCRIPT-->
     <script src="JavaScript/ProyectoJS.js"></script>
